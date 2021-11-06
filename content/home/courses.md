@@ -1,5 +1,5 @@
 ---
-# An instance of the Pages widget.
+# An instance of the Accomplishments widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
@@ -7,14 +7,15 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 30
 
-title: Publications
-subtitle: ''
+# Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+title: 'Courses'
+subtitle:
 
 content:
   # Page type to display. E.g. post, talk, publication...
-  page_type: publication
+  page_type: courses
   # Choose how much pages you would like to display (0 = all pages)
   count: 5
   # Choose how many pages you would like to offset by
@@ -34,9 +35,6 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 4
+  view: 3
 ---
-
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
+---
